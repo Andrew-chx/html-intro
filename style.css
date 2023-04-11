@@ -1,0 +1,122 @@
+
+
+html{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h1{
+        color: rgb(26, 23, 41);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.name{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.contenedor{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: rgb(194, 206, 213);
+    display: grid;
+    margin: 50px;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 35px rgba(255, 68, 105, 0.271);
+}
+
+.contenedor .izq{
+
+    position: relative;
+    background: rgb(219, 241, 255);
+    padding: 40px;
+}
+
+.redes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.direcciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Iconos{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding-bottom: 80px;
+}
+
+
+.contenedor .der {
+
+    position: relative;
+    background: rgb(233, 105, 144);
+    padding: 40px;
+}
+
+.der h2{
+    background-color: aliceblue;
+    border-radius: 10px;
+    
+}
+
+.skills{
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding-top: 3px;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 3rem;
+    box-shadow: 0px 5px 20px 5px rgba(255, 255, 255, 0.687);
+    
+}
+
+.icon-hobbies{
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.pfp{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.pfp img{
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h2{
+    margin-left: 40px;
+    color: rgb(26, 23, 41);
+}
+label{
+    font-weight: 600;
+}
+
+h3{
+    font-weight: 400;
+    color: rgb(26, 23, 41);
+}
